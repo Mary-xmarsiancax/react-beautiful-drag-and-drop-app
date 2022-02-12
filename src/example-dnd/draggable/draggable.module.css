@@ -1,0 +1,9 @@
+.itemsEl {
+    width: 170px;
+    border: #282c34 solid 2px;
+    border-radius: 3px;
+    margin: 10px;
+    padding: 2px;
+    text-align: center;
+    background: cornflowerblue;
+}
