@@ -2,7 +2,7 @@ import {Droppable} from "react-beautiful-dnd";
 import DraggableComponent from "../draggable/draggableComponent";
 import s from "./droppable.module.css"
 
-const DroppableComponent = (props) => {
+const DroppableComponent = () => {
     return (
         <Droppable droppableId="droppableId">
             {(provided, snapshot) => (
@@ -10,7 +10,7 @@ const DroppableComponent = (props) => {
                      {...provided.droppableProps}
                      ref={provided.innerRef}
                 >
-                    <DraggableComponent items={props.items}/>
+                    <DraggableComponent/>
                     {provided.placeholder}
                 </div>
             )}

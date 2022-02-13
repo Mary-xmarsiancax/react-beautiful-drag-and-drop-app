@@ -1,6 +1,6 @@
 import {DragDropContext} from "react-beautiful-dnd";
 import DroppableComponent from "./droppable/droppableComponent";
-import {connect, useDispatch} from "react-redux";
+import {useDispatch} from "react-redux";
 import {setItems} from "../redux/itemsReducer";
 
 const DndContextComponent = (props) => {
@@ -14,13 +14,8 @@ const DndContextComponent = (props) => {
     }
     return (
         <DragDropContext onDragEnd={onDragEnd}>
-            <DroppableComponent items={props.items}/>
+            <DroppableComponent/>
         </DragDropContext>
     )
 }
-
-const mapStateToProps = (state) => ({
-    items: state.storeItems.items
-})
-
-export default connect(mapStateToProps, {setItems})(DndContextComponent);
+export default DndContextComponent;
