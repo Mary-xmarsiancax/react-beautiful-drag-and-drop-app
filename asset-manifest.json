@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-beautiful-drag-and-drop-app/static/css/main.e6c13ad2.css",
+    "main.js": "/react-beautiful-drag-and-drop-app/static/js/main.b8b06a0e.js",
+    "static/js/787.a1e951b9.chunk.js": "/react-beautiful-drag-and-drop-app/static/js/787.a1e951b9.chunk.js",
+    "index.html": "/react-beautiful-drag-and-drop-app/index.html",
+    "main.e6c13ad2.css.map": "/react-beautiful-drag-and-drop-app/static/css/main.e6c13ad2.css.map",
+    "main.b8b06a0e.js.map": "/react-beautiful-drag-and-drop-app/static/js/main.b8b06a0e.js.map",
+    "787.a1e951b9.chunk.js.map": "/react-beautiful-drag-and-drop-app/static/js/787.a1e951b9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.b8b06a0e.js"
+  ]
+}
